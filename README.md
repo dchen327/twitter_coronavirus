@@ -242,3 +242,13 @@ There's two reasons:
     In general, writing test cases for large data analysis tasks is tricky and rarely done.
     Writing correct code without test cases is hard,
     and so many (most?) analysis of large datasets contain lots of bugs.
+
+
+
+
+# Twitter Coronavirus
+## Top 10 Plots
+![lang1](https://github.com/dchen327/twitter_coronavirus/blob/master/src/lang1.png?raw=true)
+![country1](https://github.com/dchen327/twitter_coronavirus/blob/master/src/country1.png?raw=true)
+![lang2](https://github.com/dchen327/twitter_coronavirus/blob/master/src/lang2.png?raw=true)
+![country2](https://github.com/dchen327/twitter_coronavirus/blob/master/src/country2.png?raw=true)
