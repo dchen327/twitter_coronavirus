@@ -29,7 +29,7 @@ if args.percent:
 
 # print the count values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
-top_10 = items[:10]
+top_10 = items[:10][::-1]  # low to high
 # plotting
 plot_keys, plot_vals = [], []
 for k, v in top_10:
