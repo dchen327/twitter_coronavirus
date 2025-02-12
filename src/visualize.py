@@ -14,6 +14,9 @@ import os
 import json
 import matplotlib.pyplot as plt
 from collections import Counter,defaultdict
+from matplotlib import rc
+
+rc('font', family='UnBatang')
 
 # open the input path
 with open(args.input_path) as f:
