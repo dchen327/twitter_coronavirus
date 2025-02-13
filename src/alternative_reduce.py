@@ -21,17 +21,12 @@ for path in args.input_paths:
     # each path is 1 day
     with open(path) as f:
         tmp = json.load(f)
-        print(path)
-        for k in tmp:
-            print(k, sum(tmp[k].values()))
         for hashtag in args.hashtags:
-            print(hashtag)
             daily_usage = 0
             if hashtag in tmp:
                 daily_usage += sum(tmp[hashtag].values())
             hashtag_to_daily_usage[hashtag].append(daily_usage)
             
-print(hashtag_to_daily_usage)
 plt.figure(figsize=(12,6))
 num_days = len(hashtag_to_daily_usage[args.hashtags[0]])
 

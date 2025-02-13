@@ -12,5 +12,5 @@ The next plot (daily trends) shows daily usage of specific hashtags on a line pl
 ![lang2](https://github.com/dchen327/twitter_coronavirus/blob/master/src/lang2.png?raw=true)
 ![country2](https://github.com/dchen327/twitter_coronavirus/blob/master/src/country2.png?raw=true)
 
-## Hashtag Daily Trends Plot
+## Hashtag Daily Trends Plot Over 2020
 ![langtrends](https://github.com/dchen327/twitter_coronavirus/blob/master/src/lang_trends.png?raw=true)
